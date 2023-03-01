@@ -8,13 +8,14 @@
     "@theia/filesystem": "latest",
     "@theia/markers": "latest",
     "@theia/messages": "latest",
+    "@theia/mini-browser": "latest",
     "@theia/monaco": "latest",
     "@theia/navigator": "latest",
     "@theia/preferences": "latest",
     "@theia/process": "latest",
     "@theia/terminal": "latest",
     "@theia/workspace": "latest",
-    "@theia/mini-browser": "latest",
+    "dotenv": "^16.0.3",
     "hello-world": "0.0.0"
   },
   "devDependencies": {

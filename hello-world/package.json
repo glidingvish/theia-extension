@@ -11,7 +11,8 @@
   "dependencies": {
     "@theia/core": "latest",
     "@theia/mini-browser": "^1.33.0",
-    "@theia/terminal": "^1.33.0"
+    "@theia/terminal": "^1.33.0",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "rimraf": "latest",
