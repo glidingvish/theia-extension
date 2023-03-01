@@ -15,7 +15,7 @@ export const HelloWorldCommand: Command = {
 export class HelloWorldCommandContribution implements CommandContribution {
     @inject(TerminalService) private readonly terminalService: TerminalService;
     @inject(EnvVariablesServer) protected readonly envVariableServer: EnvVariablesServer;
-    @inject(MessageService) private readonly messageService: MessageService,
+    @inject(MessageService) private readonly messageService: MessageService;
     constructor() { }
 
     registerCommands(registry: CommandRegistry): void {
